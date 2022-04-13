@@ -1,0 +1,16 @@
+header{
+    background: #BBBBBB; /* Mudar a Cor*/ 
+}
+
+nav li{
+    display: inline; /* Colocar tudo na mesma linha */
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /* Deixar as letras em maiúsculo */
+    color: #000000; /* Alterar a cor das letras */
+    font-weight: bold; /* Deixar em Negrito */
+    font-size: 22px; /* Aumentar o tamanho da fonte */
+    text-decoration: none; /* Tirar o sublinhado */
+}
