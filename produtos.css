@@ -1,10 +1,23 @@
 header{
     background: #BBBBBB; /* Mudar a Cor*/ 
+    padding: 20px 0; /* CIMA/BAIXO  -  DIREITA/ESQUERDA */
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li{
     display: inline; /* Colocar tudo na mesma linha */
-    margin: 0 0 0 15px;
+    margin: 0 0 0 15px; /* CIMA DIREITA BAIXO ESQUERDA */
 }
 
 nav a{
