@@ -1,13 +1,9 @@
-body {
-	
-}
-
 #banner {
-	width: 100%;
+	width:100%;
 }
 
 .principal{
-	background: #BBBBBB;
+	background: #CCCCCC;
 	padding: 30px;
 }
 
@@ -31,12 +27,12 @@ em strong {
 	color: #FF0000;
 }
 
-.itens{
-	font-style:italic;
+.itens {
+	font-style: italic
 }
 
-.beneficios{
-	background: white;
+.beneficios {
+	background: #FFFFFF;
 	padding: 20px;
 }
 
@@ -47,6 +43,6 @@ ul {
 	margin-right: 15%;
 }
 
-.imagemBeneficio{
+.imagembeneficios {
 	width: 50%;
 }
