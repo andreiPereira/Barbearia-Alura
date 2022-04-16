@@ -22,7 +22,30 @@
 			</div>
 		</header>
         <main>
-            teste
+            <form action="">
+                <label for="nomesobrenome"> Nome e Sobrenome </label>
+                <input type="text" id = "nomesobrenome" class="input-padrao">
+
+                <label for="email">Email</label>
+                <input type="text" id = "email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contrato?</p>
+                    <label for="radio-email"><input id="radio-email" type="radio" name="contato" value="email">Email</label>
+                    <label for="radio-telefone"><input id="radio-telefone" type="radio" name="contato" value="telefone">Telefone</label>
+                   <label for="radio-whatsapp"> <input id="radio-whatsapp" type="radio" name="contato" value="whatsapp">Whatsapp</label>
+                </div>
+
+                <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                
+                <input type="submit" value = "Enviar Formulário">
+            </form>
         </main>
         <footer>
 			<img src="logo-branco.png">
