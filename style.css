@@ -191,10 +191,12 @@ form label, form legend {
 	font-size: 18px;
 	border:none;
 	border-radius: 5px;
-	transition: background 1s;
+	transition: all 1s;
 	cursor: pointer;
+	
 }
 
 .enviar:hover{
+	transform: scale(1.1);
 	background: darkorange;
 }
