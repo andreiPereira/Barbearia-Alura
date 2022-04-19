@@ -161,8 +161,7 @@ td, th {
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
+	
 }
 
 form {
@@ -218,6 +217,13 @@ form label, form legend {
 	clear: left
 }
 
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -232,15 +238,22 @@ form label, form legend {
 
 .mapa {
 	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
 }
-
+ 
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
 
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
 .beneficios {
 	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios{
