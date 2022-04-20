@@ -160,10 +160,6 @@ td, th {
 	padding: 5px 20px;
 }
 
-main {
-	
-}
-
 form {
 	margin: 40px 0;
 }
@@ -299,4 +295,8 @@ form label, form legend {
 .video{
 	width: 560px;
 	margin: 2em auto;
+}
+
+@media screen and (max-width: 480px){
+	
 }
